@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  details {
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  summary {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  details[open] summary {
+    color: #2196F3;
+  }
+  

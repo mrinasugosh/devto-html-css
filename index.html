@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Examples</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2em;
+            color: #444;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .nav-list a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            padding: 15px 0;
+            border-radius: 8px;
+            background: linear-gradient(90deg, #007BFF, #00C6FF);
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .nav-list a:hover {
+            background: linear-gradient(90deg, #0056b3, #007BFF);
+            transform: scale(1.05);
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .nav-list a {
+                font-size: 1.1em;
+                padding: 12px 0;
+            }
+        }
+
+        .home-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .home-link a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.2em;
+        }
+
+        .home-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML and CSS Examples</h1>
+    </header>
+
+    <div class="container">
+        <h2>Select an Example to Explore</h2>
+        <ul class="nav-list">
+            <li><a href="http://localhost:8080/accordions/">Accordions</a></li>
+            <li><a href="http://localhost:8080/auto-suggest/">Auto Suggest</a></li>
+            <li><a href="http://localhost:8080/custom-switches/">Custom Switches</a></li>
+            <li><a href="http://localhost:8080/scroll-animations/">Scroll Animations</a></li>
+            <li><a href="http://localhost:8080/smooth-scrolling/">Smooth Scrolling</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
