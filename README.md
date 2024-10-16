@@ -6,11 +6,17 @@ This repository contains several examples demonstrating how to accomplish common
 
 The project is organized into the following folders, each containing a specific example:
 
-- **accordions**: Example of creating an accordion interface with only HTML and CSS.
-- **auto-suggest**: An auto-suggest input field implemented using the HTML `<datalist>` element.
-- **custom-switches**: A custom toggle switch (checkbox) built with HTML and CSS, no JavaScript required.
+- **accordions**: Example of creating an accordion interface with only HTML and CSS
+  ![DevToAccordion](https://github.com/user-attachments/assets/d52c55bd-9d3b-46cc-a0d9-42b6f8e76159)
+- **auto-suggest**: An auto-suggest input field implemented using the HTML `<datalist>` element
+  ![DevToAutoComplete](https://github.com/user-attachments/assets/77b4b4eb-1546-4f8b-99e9-935723917dd2)
+- **custom-switches**: A custom toggle switch (checkbox) built with HTML and CSS, no JavaScript required
+  ![DevToCustomSwitches](https://github.com/user-attachments/assets/3811e356-1164-4278-9423-7339fb4d5253)
 - **scroll-animations**: Scroll-triggered animations with CSS, using `scroll-behavior` and other modern CSS features.
+  ![DevToSmoothAnimations](https://github.com/user-attachments/assets/0ca637bc-cd80-4583-9675-09e63e085330)
 - **smooth-scrolling**: Implementing smooth scrolling between sections of the page using just CSS.
+  ![Smooth Scrolling Demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hglahm8j3no7obi4jygx.gif)
+
 
 Each folder contains:
 - `index.html`: The HTML file for the example.
